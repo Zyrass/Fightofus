@@ -104,12 +104,12 @@
           </thead>
           <tbody>
             <tr>
-              <td><span class="vitality">0</span></td>
-              <td><span class="strong">0</span></td>
-              <td><span class="sagess">0</span></td>
-              <td><span class="intelligence">0</span></td>
-              <td><span class="lucky">0</span></td>
-              <td><span class="agility">0</span></td>
+              <td><span class="vitality vitalityArmor">0</span></td>
+              <td><span class="strong strongArmor">0</span></td>
+              <td><span class="sagess sagessArmor">0</span></td>
+              <td><span class="intelligence intelligenceArmor">0</span></td>
+              <td><span class="lucky luckyArmor">0</span></td>
+              <td><span class="agility agilityArmor">0</span></td>
             </tr>
           </tbody>
         </table>
@@ -164,29 +164,35 @@
       </div>
       <div class="fighting_container">
         <div class="fighting_player">
-          <div class="fighter "></div>
-          <h3>Statistiques :</h3>
-          <ul>
-            <li>
-              <span class="vita">Vitalité</span> : 
-              <span class="vitality">0</span>
-            </li>
-            <li>
-              <span class="force">Force</span> :
-              <span class="strong">0</span></li>
-            <li>
-              <span class="sagesse">Sagesse</span> :
-              <span class="sagess">0</span></li>
-            <li>
-              <span class="intel">Intelligence</span> :
-              <span class="intelligence">0</span></li>
-            <li>
-              <span class="chance">Chance</span> :
-              <span class="lucky">0</span></li>
-            <li>
-              <span class="agilite">Agilité</span> :
-              <span class="agility">0</span></li>
-          </ul>
+          <div class="listIcon">
+            <div class="fighter">sdf</div>
+            <div class="armor">sdf</div>
+            <div class="weapon">sdf</div>
+          </div>
+          <table>
+            <caption>Statistique de l'armure sélectionnée</caption>
+            <thead>
+              <tr>
+                <th class="text text_vitality">Vitalité</th>
+                <th class="text text_strong">Force</th>
+                <th class="text text_sagess">Sagesse</th>
+                <th class="text text_intelligence">Intelligence</th>
+                <th class="text text_lucky">Chance</th>
+                <th class="text text_agility">Agilité</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="vitality vitalityResult">0</span></td>
+                <td><span class="strong strongResult">0</span></td>
+                <td><span class="sagess sagessResult">0</span></td>
+                <td><span class="intelligence intelligenceResult">0</span></td>
+                <td><span class="lucky luckyResult">0</span></td>
+                <td><span class="agility agilityResult">0</span></td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
         <div class="fighting_mob">
           <button class="btn btn_generate_mob" id="btn_generate_mob">Générer un Ennemie</button>
@@ -204,13 +210,13 @@
   </footer>
 
   <script src="./js/classes/Item.js"></script>
-  <!-- <script src="./js/classes/Mob.js"></script> -->
-  <!-- <script src="./js/classes/Player.js"></script> -->
+  <script src="./js/classes/Mob.js"></script>
+  <script src="./js/classes/Player.js"></script>
 
   <script src="./js/list_armors.js"></script>
   <script src="./js/list_weapons.js"></script>
-  <!-- <script src="./js/list_mobs.js"></script> -->
-  <!-- <script src="./js/list_players.js"></script> -->
+  <script src="./js/list_mobs.js"></script>
+  <script src="./js/list_players.js"></script>
 
   <script src="./js/game.js"></script>
 </body>

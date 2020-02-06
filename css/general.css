@@ -160,17 +160,6 @@ p::first-letter {
   filter: grayscale(100%);
 }
 .fighter,
-.armor,
-.weapon {
-  min-width: 20rem;
-  min-height: 20rem;
-  border: 1px solid var(--secondary);
-  margin: 2rem;
-  cursor: pointer;
-  transition: all 0.2s linear;
-  filter: grayscale(100%);
-}
-.fighter,
 .weapon {
   border: 1px solid var(--primary);
 }
@@ -196,7 +185,7 @@ p::first-letter {
 .weapon_four,
 .weapon_five,
 .weapon_six {
-  background-position: center;
+  background-position: top;
   background-size: cover;
   min-width: 20rem;
   min-height: 20rem;
@@ -279,11 +268,13 @@ p::first-letter {
   top: 2.5rem;
   margin: 0 auto;
   text-align: center;
+  z-index: 999;
 }
 .absolute_position h1 {
   display: flex;
   justify-content: space-evenly;
 }
+
 
 .fighting_container {
   display: flex;
@@ -300,23 +291,19 @@ p::first-letter {
 
 .fighting_player {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   background-color: var(--primary);
   border-right: 1px solid var(--secondary);
 }
-.fighting_player .fighter {
-  align-self: flex-start;
-  margin: 15rem;
-}
-.fighting_player h3 {
-  align-self: flex-start;
+
+.listIcon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 15rem;
-}
-.fighting_player ul {
-  align-self: flex-start;
-  font-size: 1.6rem;
-  list-style: none;
-  margin-top: 20rem;
-  margin-left: -30rem;
 }
 
 /**
@@ -329,7 +316,9 @@ p::first-letter {
   background-size: cover;
   background-position: center;
   border-left: 1px solid var(--secondary);
+  filter: sepia(100%);
+  z-index: 0;
 }
-  
+
 
 /* RESULTAT DU COMBAT */

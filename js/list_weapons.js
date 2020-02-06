@@ -13,4 +13,4 @@ const kaiser = new Item("Kaiser", "Kaiser est le nom d'un Dragon Cochon qui jadi
 
 const neufQueues = new Item("Neuf Queues", "La légende veut qu'Ecaflip, lors du dantesque combat qui l'éleva au rang de dieu, utilisa une arme constituée de ses propres queues, chacune issue de l'une de ses vies.", 300, 50, 0, 0, 0, 50);
 
-const daguesReceuses = new item("Dagues Réceuses", "Affûtées une fois par décennie seulement, ces dagues n'en restent pas moins mortelles. Animées d'une magie des plus obscures, elles se déplacent parfois toutes seules la nuit, pour aller se planter dans le meilleur des cas, dans le derrière des imprudents... Encore une histoire que l'on raconte aux jeunes Iops pour leur faire peur.", 201, 0, 31, 0, 0, 80);
+const daguesReceuses = new Item("Dagues Réceuses", "Affûtées une fois par décennie seulement, ces dagues n'en restent pas moins mortelles. Animées d'une magie des plus obscures, elles se déplacent parfois toutes seules la nuit, pour aller se planter dans le meilleur des cas, dans le derrière des imprudents... Encore une histoire que l'on raconte aux jeunes Iops pour leur faire peur.", 201, 0, 31, 0, 0, 80);

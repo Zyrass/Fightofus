@@ -12,7 +12,6 @@ class Item {
    */
   constructor(name, description, vitality, strong, sagess, intelligence, lucky, agility) {
     this._name           = name,
-    this._description    = description,
     this._vitality       = vitality;
     this._strong         = strong;
     this._sagess         = sagess;

@@ -3,7 +3,7 @@
  * Armures
  * -----------------------------------------------------------------------------
  */
-const capeMeulou = new item("Cape du Meulou", "Le Meulou a la queue si belle et si longue qu'elle traîne au sol. Certains aventuriers jaloux la lui ont arrachée et la portent, espérant sûrement y gagner en virilité.", 151, 31, 21, 0, 110, 20);
+const capeMeulou = new Item("Cape du Meulou", "Le Meulou a la queue si belle et si longue qu'elle traîne au sol. Certains aventuriers jaloux la lui ont arrachée et la portent, espérant sûrement y gagner en virilité.", 151, 31, 21, 0, 110, 20);
 
 const capeOgivol = new Item("Cape d'Ogivol", "Difficile de savoir si les os qui composent la cape d'Ogivol Scalarcin sont ceux de ses victimes ou juste des pièces de rechange pour ce vieux Sram arthritique.", 251, 41, 31, 0, 41, 41);
 

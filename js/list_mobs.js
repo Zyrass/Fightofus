@@ -23,9 +23,17 @@ const pirouette     = new Mob("Pirouette", 150, 25, 35, 30, 35, 20);
 // liste des mobs
 const listeMobs = [farwest, tania, prince, fidji, merlin, loustique, eikos, tendresse, uranus, sally, patoune, boubou, pilou, tempette, muscadet, ultima, loulouCaporal, olaf, pepere, pirouette];
 
+console.groupCollapsed("Mobs");
+  listeMobs.map( ( value ) => {
+    console.log(value);
+  });
+console.groupEnd();
 
 // ennemie aléatoire
 let numRandom = Math.floor( Math.random() * listeMobs.length );
 let mobRandom = listeMobs[numRandom];
 
-console.log(mobRandom.name);
+console.group("Ennemie aléatoire");
+  console.log(mobRandom);
+  console.log("Nom de l'ennemie : ", mobRandom.name);
+console.groupEnd();
