@@ -5,8 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fightofus</title>
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/general.css">
 </head>
 <body>
-  <h1>Fightofus</h1>
+  <header>
+    Fightofus
+  </header>
+  <main>
+    
+    <!-- PRESENTATION -->
+    <section class="presentation">
+      <h1>Fightofus</h1>
+      <hr class="divider divider_dark" />
+      <p>
+        Ce jeu à été conçu spécialement pour comprendre la notion de "class" avec le langage JavaScript.<br /><br />
+
+        Aucune donnée senssible n'est prélevé, tout se passe dans votre navigateur.<br />
+        C'est une reprise d'un exercise que j'ai eu à faire à la 3WA (DragonSlayer).<br />
+        Le résultat de l'époque qui était retourné n'était pas très glorifiant à mon goût.<br />
+        Ainsi, je l'ai entièrement re-codé afin qu'il ressemble réellement à quelque chose. A vous d'en jugez...<br /><br/>
+        
+        Ce jeu est avant tout un jeu de hazard. Vous choisissez un certains nombres d'éléments vous permettant de vous équiper afin de pouvoir défier un ennemie qui sera choisit aléatoirement parmis une certaine liste.<br /><br />
+
+        Vous pourrez suivre en temps réel l'avancer de votre combat tout en ayant des petits dialogues aléatoire qui vont égailler votre combat selon le style que vous aurez choisit.<br /><br />
+
+        Bonne castagne ;)
+      </p>
+    </section>
+
+    <!-- CHOIX DU COMBATANT -->
+    <section class="choose_guerrier">
+      <h2>Choisit ton combatant</h2>
+      <hr class="divider divider_light" />
+      
+      <div class="fighter_container">
+        <div class="fighter fighter_warrior"></div>
+        <div class="fighter fighter_archer"></div>
+        <div class="fighter fighter_mage"></div>
+        <div class="fighter fighter_nain"></div>
+      </div>
+      <div class="fighter_describe">Description du héros sélectionné</div>
+    </section>
+
+    <!-- CHOIX DU STYLE DU COMBATANT -->
+    <section class="choose_style">style</section>
+
+    <!-- CHOIX DE L'ARMURE DU COMBATANT -->
+    <section class="choose_armor">armor</section>
+
+    <!-- CHOIX DE L'ARME DU COMBATANT -->
+    <section class="choose_weapon">weapon</section>
+
+    <!-- COMBAT -->
+    <section class="figth"></section>
+
+    <!-- RESULTAT DU COMBAT -->
+    <section class="result"></section>
+  </main>
+  <footer>
+    <span>&copy; Copyright 2020 - Toutes les images sont la propriétée d'Ankama Games</span>
+    <span>Page codé avec passion en full JavaScript</span>
+    <span>By Alain GUILLON</span>
+  </footer>
+
 </body>
 </html>

@@ -1,0 +1,162 @@
+html {
+  color: var(--primary);
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+footer, header {
+  position: fixed;
+  width: 100%;
+  min-height: 5rem;
+  line-height: 5rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+header {
+  top: 0;
+  left: 0;
+  font-size: 1.8rem;
+  text-align: center;
+  box-shadow: 0 0.1rem 0.2rem 0 #000;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 1.4rem;
+  text-align: center;
+  box-shadow: 0 -0.1rem 0.2rem 0 #000;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+}
+main section {
+  height: calc(100vh - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(odd) {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+section:nth-child(even) {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+h2 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+.divider, .divider {
+  width: 80rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.divider_light {
+  border: 0.05rem solid var(--secondary);
+  box-shadow: 0 0 0.2rem 0 #fff;
+}
+.divider_dark {
+  border: 0.05rem solid var(--primary);
+  box-shadow: 0 0 0.2rem 0 #000;
+}
+p {
+  font-size: 1.6rem;
+  min-width: 60rem;
+  max-width: 90rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.2rem;
+}
+p::first-letter {
+  font-size: 2.4rem;
+}
+
+/* PRESENTATION */
+.presentation {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* CHOIX DU COMBATANT */
+.choose_guerrier {
+  display: flex;
+  flex-flow: column wrap;
+  color: var(--secondary);
+}
+.fighter_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fighter {
+  min-width: 20rem;
+  min-height: 20rem;
+  border: 1px solid var(--secondary);
+  margin: 2rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  filter: grayscale(100%);
+}
+.fighter:hover {
+  box-shadow: 0 0 1rem var(--secondary);
+  filter: grayscale(50%);
+}
+
+.fighter_warrior {
+  background-image: url('../assets/images/players/warrior1.jpg');
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+}
+.fighter_archer {
+  background-image: url('../assets/images/players/archer1.jpg');
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+}
+.fighter_mage {
+  background-image: url('../assets/images/players/wizard1.jpg');
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+}
+.fighter_nain {
+  background-image: url('../assets/images/players/nain1.jpg');
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+}
+.fighter_describe {
+  min-height: 4rem;
+  margin: 2rem 0 0 0;
+  padding: 2rem 5rem 0 5rem;
+  border: 1px solid var(--secondary);
+  text-align: center;
+  font-size: 1.6rem;
+}

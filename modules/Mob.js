@@ -4,15 +4,15 @@ class Mob {
    * 
    * @param {String} name 
    * @param {String} race 
-   * @param {Numbre} level 
-   * @param {Numbre} experience 
-   * @param {Numbre} vitality 
-   * @param {Numbre} strong 
-   * @param {Numbre} intelligence 
-   * @param {Numbre} rapidity 
-   * @param {Numbre} light 
-   * @param {Numbre} darkness 
-   * @param {Numbre} resistance 
+   * @param {Number} level 
+   * @param {Number} experience 
+   * @param {Number} vitality 
+   * @param {Number} strong 
+   * @param {Number} intelligence 
+   * @param {Number} rapidity 
+   * @param {Number} light 
+   * @param {Number} darkness 
+   * @param {Number} resistance 
    * @param {String} description 
    */
   constructor(
@@ -139,4 +139,9 @@ class Mob {
     this._description = description;
   }
 
+  /**
+   * ----------------------------------------------------------------
+   * ACTIONS
+   * ----------------------------------------------------------------
+   */
 }
