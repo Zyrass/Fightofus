@@ -125,28 +125,28 @@ p::first-letter {
 }
 
 .fighter_warrior {
-  background-image: url('../assets/images/players/warrior1.jpg');
+  background-image: url('../assets/images/players/warrior2.jpg');
   background-position: center;
   background-size: cover;
   min-width: 20rem;
   min-height: 20rem;
 }
 .fighter_archer {
-  background-image: url('../assets/images/players/archer1.jpg');
+  background-image: url('../assets/images/players/archer2.jpg');
   background-position: center;
   background-size: cover;
   min-width: 20rem;
   min-height: 20rem;
 }
 .fighter_mage {
-  background-image: url('../assets/images/players/wizard1.jpg');
+  background-image: url('../assets/images/players/wizard2.jpg');
   background-position: center;
   background-size: cover;
   min-width: 20rem;
   min-height: 20rem;
 }
 .fighter_nain {
-  background-image: url('../assets/images/players/nain1.jpg');
+  background-image: url('../assets/images/players/nain2.jpg');
   background-position: center;
   background-size: cover;
   min-width: 20rem;
@@ -154,9 +154,38 @@ p::first-letter {
 }
 .fighter_describe {
   min-height: 4rem;
-  margin: 2rem 0 0 0;
-  padding: 2rem 5rem 0 5rem;
-  border: 1px solid var(--secondary);
-  text-align: center;
+  padding: 0 5rem 0 5rem;
   font-size: 1.6rem;
+}
+.fighter_describe table {
+  border: 1px solid var(--secondary);
+  padding: 2rem;
+  text-align: center;
+  border-collapse: collapse;
+}
+.fighter_describe table caption {
+  padding: 2rem 0 0.5rem 0;
+}
+.fighter_describe th, .fighter_describe td {
+  border: 1px solid var(--secondary);
+  padding: 1rem;
+}
+
+.text_vitality {
+  color: var(--vitality);
+}
+.text_strong {
+  color: var(--strong);
+}
+.text_sagess {
+  color: var(--sagess);
+}
+.text_intelligence {
+  color: var(--intelligence);
+}
+.text_lucky {
+  color: var(--lucky);
+}
+.text_agility {
+  color: var(--agility);
 }

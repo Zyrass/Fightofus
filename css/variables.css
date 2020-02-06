@@ -1,4 +1,11 @@
 :root {
   --primary: #333;
   --secondary: #eee;
+
+  --vitality: lightgoldenrodyellow;
+  --strong: chocolate;
+  --sagess: slateblue;
+  --intelligence: crimson;
+  --lucky: lightskyblue;
+  --agility: lightgreen;
 }

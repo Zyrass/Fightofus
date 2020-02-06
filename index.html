@@ -38,14 +38,40 @@
     <section class="choose_guerrier">
       <h2>Choisit ton combatant</h2>
       <hr class="divider divider_light" />
-      
+      <p>
+        Le choix de votre combatant divergera dans ces statistiques.<br />
+        A vous de faire les bons choix et n'oubliez pas le combat sera lui aléatoire...</p>
       <div class="fighter_container">
         <div class="fighter fighter_warrior"></div>
         <div class="fighter fighter_archer"></div>
         <div class="fighter fighter_mage"></div>
         <div class="fighter fighter_nain"></div>
       </div>
-      <div class="fighter_describe">Description du héros sélectionné</div>
+      <div class="fighter_describe">
+        <table>
+          <caption>Statistique principal du combatant sélectionné</caption>
+          <thead>
+            <tr>
+              <th class="text text_vitality">Vitalité</th>
+              <th class="text text_strong">Force</th>
+              <th class="text text_sagess">Sagesse</th>
+              <th class="text text_intelligence">Intelligence</th>
+              <th class="text text_lucky">Chance</th>
+              <th class="text text_agility">Agilité</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="vitality">150</span></td>
+              <td><span class="strong">25</span></td>
+              <td><span class="sagess">20</span></td>
+              <td><span class="intelligence">0</span></td>
+              <td><span class="lucky">10</span></td>
+              <td><span class="agility">20</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <!-- CHOIX DU STYLE DU COMBATANT -->
@@ -64,7 +90,7 @@
     <section class="result"></section>
   </main>
   <footer>
-    <span>&copy; Copyright 2020 - Toutes les images sont la propriétée d'Ankama Games</span>
+    <span>&copy; Copyright 2020 - Tous droit réservé</span>
     <span>Page codé avec passion en full JavaScript</span>
     <span>By Alain GUILLON</span>
   </footer>
