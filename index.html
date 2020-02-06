@@ -17,7 +17,7 @@
     <!-- PRESENTATION -->
     <section class="presentation">
       <h1>Fightofus</h1>
-      <hr class="divider divider_dark" />
+      <hr class="divider divider_light" />
       <p>
         Ce jeu à été conçu spécialement pour comprendre la notion de "class" avec le langage JavaScript.<br /><br />
 
@@ -37,15 +37,17 @@
     <!-- CHOIX DU COMBATANT -->
     <section class="choose_guerrier">
       <h2>Choisit ton combatant</h2>
-      <hr class="divider divider_light" />
+      <hr class="divider divider_dark" />
       <p>
         Le choix de votre combatant divergera dans ces statistiques.<br />
         A vous de faire les bons choix et n'oubliez pas le combat sera lui aléatoire...</p>
       <div class="fighter_container">
-        <div class="fighter fighter_warrior"></div>
-        <div class="fighter fighter_archer"></div>
-        <div class="fighter fighter_mage"></div>
-        <div class="fighter fighter_nain"></div>
+        <div class="fighter fighter_sadida"></div>
+        <div class="fighter fighter_xelor"></div>
+        <div class="fighter fighter_enutrof"></div>
+        <div class="fighter fighter_eniripsa"></div>
+        <div class="fighter fighter_cra"></div>
+        <div class="fighter fighter_feca"></div>
       </div>
       <div class="fighter_describe">
         <table>
@@ -62,38 +64,154 @@
           </thead>
           <tbody>
             <tr>
-              <td><span class="vitality">150</span></td>
-              <td><span class="strong">25</span></td>
-              <td><span class="sagess">20</span></td>
+              <td><span class="vitality">0</span></td>
+              <td><span class="strong">0</span></td>
+              <td><span class="sagess">0</span></td>
               <td><span class="intelligence">0</span></td>
-              <td><span class="lucky">10</span></td>
-              <td><span class="agility">20</span></td>
+              <td><span class="lucky">0</span></td>
+              <td><span class="agility">0</span></td>
             </tr>
           </tbody>
         </table>
       </div>
     </section>
 
-    <!-- CHOIX DU STYLE DU COMBATANT -->
-    <section class="choose_style">style</section>
-
     <!-- CHOIX DE L'ARMURE DU COMBATANT -->
-    <section class="choose_armor">armor</section>
+    <section class="choose_armor">
+      <h2>Choisit ton armure</h2>
+      <hr class="divider divider_light" />
+      <p>Le choix de votre armure aura un impact sur vos statistiques.</p>
+      <div class="armor_container">
+        <div class="armor armor_one"></div>
+        <div class="armor armor_two"></div>
+        <div class="armor armor_three"></div>
+        <div class="armor armor_four"></div>
+        <div class="armor armor_five"></div>
+        <div class="armor armor_six"></div>
+      </div>
+      <div class="armor_describe">
+        <table>
+          <caption>Statistique de l'armure sélectionnée</caption>
+          <thead>
+            <tr>
+              <th class="text text_vitality">Vitalité</th>
+              <th class="text text_strong">Force</th>
+              <th class="text text_sagess">Sagesse</th>
+              <th class="text text_intelligence">Intelligence</th>
+              <th class="text text_lucky">Chance</th>
+              <th class="text text_agility">Agilité</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="vitality">0</span></td>
+              <td><span class="strong">0</span></td>
+              <td><span class="sagess">0</span></td>
+              <td><span class="intelligence">0</span></td>
+              <td><span class="lucky">0</span></td>
+              <td><span class="agility">0</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
     <!-- CHOIX DE L'ARME DU COMBATANT -->
-    <section class="choose_weapon">weapon</section>
+    <section class="choose_weapon">
+      <h2>Choisit ton arme</h2>
+      <hr class="divider divider_dark" />
+      <p>Le choix de votre arme aura un impact sur vos statistiques.</p>
+      <div class="weapon_container">
+        <div class="weapon weapon_one"></div>
+        <div class="weapon weapon_two"></div>
+        <div class="weapon weapon_three"></div>
+        <div class="weapon weapon_four"></div>
+        <div class="weapon weapon_five"></div>
+        <div class="weapon weapon_six"></div>
+      </div>
+      <div class="weapon_describe">
+        <table>
+          <caption>Statistique de l'armure sélectionnée</caption>
+          <thead>
+            <tr>
+              <th class="text text_vitality">Vitalité</th>
+              <th class="text text_strong">Force</th>
+              <th class="text text_sagess">Sagesse</th>
+              <th class="text text_intelligence">Intelligence</th>
+              <th class="text text_lucky">Chance</th>
+              <th class="text text_agility">Agilité</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="vitality">0</span></td>
+              <td><span class="strong">0</span></td>
+              <td><span class="sagess">0</span></td>
+              <td><span class="intelligence">0</span></td>
+              <td><span class="lucky">0</span></td>
+              <td><span class="agility">0</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
     <!-- COMBAT -->
-    <section class="figth"></section>
+    <section class="figth">
+      <div class="absolute_position">
+        <h1><span>Joueur</span> <span>Ennemie</span></h1>
+        <hr class="divider divider_light" />
+      </div>
+      <div class="fighting_container">
+        <div class="fighting_player">
+          <div class="fighter "></div>
+          <h3>Statistiques :</h3>
+          <ul>
+            <li>
+              <span class="vita">Vitalité</span> : 
+              <span class="vitality">0</span>
+            </li>
+            <li>
+              <span class="force">Force</span> :
+              <span class="strong">0</span></li>
+            <li>
+              <span class="sagesse">Sagesse</span> :
+              <span class="sagess">0</span></li>
+            <li>
+              <span class="intel">Intelligence</span> :
+              <span class="intelligence">0</span></li>
+            <li>
+              <span class="chance">Chance</span> :
+              <span class="lucky">0</span></li>
+            <li>
+              <span class="agilite">Agilité</span> :
+              <span class="agility">0</span></li>
+          </ul>
+        </div>
+        <div class="fighting_mob">
+          <button class="btn btn_generate_mob" id="btn_generate_mob">Générer un Ennemie</button>
+        </div>
+      </div>
+    </section>
 
     <!-- RESULTAT DU COMBAT -->
     <section class="result"></section>
   </main>
   <footer>
-    <span>&copy; Copyright 2020 - Tous droit réservé</span>
+    <span>&copy; Copyright 2020 - Toutes les illustrations sont la propriétée de la société Ankama Games</span>
     <span>Page codé avec passion en full JavaScript</span>
     <span>By Alain GUILLON</span>
   </footer>
 
+  <script src="./js/classes/Item.js"></script>
+  <!-- <script src="./js/classes/Mob.js"></script> -->
+  <!-- <script src="./js/classes/Player.js"></script> -->
+
+  <script src="./js/list_armors.js"></script>
+  <script src="./js/list_weapons.js"></script>
+  <!-- <script src="./js/list_mobs.js"></script> -->
+  <!-- <script src="./js/list_players.js"></script> -->
+
+  <script src="./js/game.js"></script>
 </body>
 </html>
