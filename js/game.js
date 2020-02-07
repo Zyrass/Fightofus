@@ -25,7 +25,6 @@ console.groupCollapsed("Armes");
   console.log(ankhape);
 console.groupEnd();
 
-
 // Choix du combatant
 const sadidaSelected    = document.querySelector(".fighter_sadida");
 const xelorSelected     = document.querySelector(".fighter_xelor");
