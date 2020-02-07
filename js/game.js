@@ -33,8 +33,8 @@ const eniripsaSelected  = document.querySelector(".fighter_eniripsa");
 const craSelected       = document.querySelector(".fighter_cra");
 const fecaSelected      = document.querySelector(".fighter_feca");
 
-// Liste des combatants
-const listeCombatant = [sadidaSelected, xelorSelected, enutrofSelected, eniripsaSelected, craSelected, fecaSelected];
+// Listing des combatants
+const listeCombatant = [sadida, xelor, enutrof, eniripsa, cra, feca];
 
 // Choix de l'armure
 const capeMeulouSelected          = document.querySelector(".armor_one");
@@ -43,6 +43,9 @@ const capeOgivolSelected          = document.querySelector(".armor_three");
 const corbacapeMastralisSelected  = document.querySelector(".armor_four");
 const capeCoeurSaignantSelected   = document.querySelector(".armor_five");
 const ankhapeSelected             = document.querySelector(".armor_six");
+
+// Listing des armures
+const listeCombatant = [sadida, xelor, enutrof, eniripsa, cra, feca];
 
 // Choix de l'arme
 const ragnarokSelected            = document.querySelector(".weapon_one");
